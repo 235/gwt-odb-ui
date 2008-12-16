@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+        <servlet>
+                <servlet-name>GetDataServlet</servlet-name>
+        		<servlet-class>
+					net.pleso.odbui.server.GetDataServlet
+				</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>GetDataServlet</servlet-name>
+                <url-pattern>/getdata</url-pattern>
+        </servlet-mapping>		
+        
+        <servlet>
+                <servlet-name>SaveDataServlet</servlet-name>
+        		<servlet-class>
+					net.pleso.odbui.server.SaveDataServlet
+				</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>SaveDataServlet</servlet-name>
+                <url-pattern>/savedata</url-pattern>
+        </servlet-mapping>	
+        
+        <servlet>
+                <servlet-name>FileLoaderServlet</servlet-name>
+        		<servlet-class>
+					net.pleso.odbui.server.FileLoaderServlet
+				</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>FileLoaderServlet</servlet-name>
+                <url-pattern>/fileloader</url-pattern>
+        </servlet-mapping>	
+        
+        
+        <servlet>
+                <servlet-name>DumpDataServlet</servlet-name>
+        		<servlet-class>
+					net.pleso.odbui.server.DumpDataServlet
+				</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>DumpDataServlet</servlet-name>
+                <url-pattern>/dumpdata</url-pattern>
+        </servlet-mapping>	
+        
+
+</web-app> 

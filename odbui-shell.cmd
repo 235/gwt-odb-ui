@@ -1,0 +1,1 @@
+@java -cp "%~dp0\src;%~dp0\bin;C:/Program Files/eclipse/gwt/gwt-user.jar;C:/Program Files/eclipse/gwt/gwt-dev-windows.jar" com.google.gwt.dev.GWTShell -out "%~dp0\www" %* net.pleso.odbui.odbui/odbui.html

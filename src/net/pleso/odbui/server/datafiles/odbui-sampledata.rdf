@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+	 <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	 <!ENTITY a 'http://protege.stanford.edu/system#'>
+	 <!ENTITY odbui_ 'http://pleso.net/rdf/odbui#'>
+	 <!ENTITY odbui 'http://pleso.net/schemas/odbui#'>
+	 <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+]>
+<rdf:RDF xmlns:rdf="&rdf;"
+	 xmlns:a="&a;"
+	 xmlns:odbui="&odbui;"
+	 xmlns:odbui_="&odbui_;"
+	 xmlns:rdfs="&rdfs;">
+<odbui:Node rdf:about="&odbui_;KB_943350_Instance_1"
+	 odbui:content="it's root node, that responsible for topic description"
+	 odbui:coordinates="123,97"
+	 odbui:dimensions="150,100"
+	 odbui:title="graph root"
+	 rdfs:label="graph root">
+	<odbui:related rdf:resource="&odbui_;KB_943350_Instance_2"/>
+	<odbui:related rdf:resource="&odbui_;KB_943350_Instance_5"/>
+</odbui:Node>
+<odbui:Node rdf:about="&odbui_;KB_943350_Instance_2"
+	 odbui:coordinates="440,113"
+	 odbui:dimensions="150,100"
+	 odbui:title="first server prototype"
+	 rdfs:label="first server prototype">
+	<odbui:content>but with some limitations - there is no connections properties in this proto</odbui:content>
+	<odbui:related rdf:resource="&odbui_;KB_943350_Instance_3"/>
+</odbui:Node>
+<odbui:Node rdf:about="&odbui_;KB_943350_Instance_3"
+	 odbui:coordinates="800,98"
+	 odbui:dimensions="150,100"
+	 odbui:title="Jena backend"
+	 rdfs:label="Jena backend">
+	<odbui:content>quite good in any case for prototype, a lot of users, tools etc</odbui:content>
+	<odbui:related rdf:resource="&odbui_;KB_943350_Instance_4"/>
+</odbui:Node>
+<odbui:Node rdf:about="&odbui_;KB_943350_Instance_4"
+	 odbui:content="productive, and quite scalable"
+	 odbui:coordinates="756,229"
+	 odbui:dimensions="150,100"
+	 odbui:title="PostgreSQL storage"
+	 rdfs:label="PostgreSQL storage">
+	<odbui:related rdf:resource="&odbui_;KB_943350_Instance_5"/>
+</odbui:Node>
+<odbui:Node rdf:about="&odbui_;KB_943350_Instance_5"
+	 odbui:coordinates="259,326"
+	 odbui:dimensions="150,100"
+	 odbui:title="testing purposes"
+	 rdfs:label="testing purposes">
+	<odbui:content>quite far from end point, but it helps us to setup reliable basis</odbui:content>
+	<odbui:related rdf:resource="&odbui_;KB_943350_Instance_6"/>
+</odbui:Node>
+<odbui:Node rdf:about="&odbui_;KB_943350_Instance_6"
+	 odbui:content="made only for some custom purposes"
+	 odbui:coordinates="550,483"
+	 odbui:dimensions="150,100"
+	 odbui:title="limited shema"
+	 rdfs:label="limited shema">
+	<odbui:related rdf:resource="&odbui_;KB_943350_Instance_4"/>
+</odbui:Node>
+<a:_instance_annotation rdf:about="&odbui_;KB_943350_Instance_7"
+	 a:_creation_timestamp="2008.02.27 10:14:51.305 EET"
+	 a:_creator="uran"
+	 rdfs:label="KB_943350_Instance_7">
+	<a:_annotated_instance rdf:resource="&odbui_;KB_943350_Instance_1"/>
+</a:_instance_annotation>
+</rdf:RDF>

@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<title>fluxB.com: mind-map prototype</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<style type="text/css">
+        	@import "js/dojo-release-1.0.2/dojo/resources/dojo.css";
+      
+        	@import "style.css";
+        	@import "richtext.css";
+		</style>
+
+		<!-- Dojo -->
+		<script language='javascript' src='js/dojo-release-1.0.2/dojo/dojo.js'></script>
+		<!-- GWT -->
+		<script language='javascript' src='net.pleso.odbui.odbui.nocache.js'></script>
+		
+		<script type="text/javascript">
+			dojo.require("dojox.gfx");
+		</script>
+	</head>
+
+	<body>
+		
+		<div id="how-to-add-node" style="display: none;">
+				<div style="text-align:center; font-size:12px; padding: 4px; font-family:Tahoma,sans-serif;"><i>How to create new nodes and connections</i></div>
+				<div style="text-align:center; margin-top:0px; margin-bottom:0px; padding:0px;"><img src="sidebar/how-to-add-node.gif"/></div>
+				<div style="padding: 4px; font-family:Tahoma,sans-serif; font-size:12px;">
+					Drag-n-drop <img src="buttons/node_create.gif"/> icon to create new connections or nodes. If you'll release mouse button on spare place - a new node will be created there, if you'll release on existing node - would be created a new connection between nodes
+				</div>
+		</div>
+		
+		<div id="text-to-graph" style="display: none;">
+				<div style="padding: 4px; font-family:Tahoma,sans-serif; font-size:12px;">		
+				Use this tool to convert automatically text blocks to graph view. It will break HTML by header and paragraph tags into separate nodes. (Use build-in content example for a demo)</div>  
+		</div>
+		
+		<table>
+			<tr>
+				<td><h1 id="project-title" style="margin-left: 23px;">fluxB.com: mind-map component prototype</h1></td>
+				<td id="loading-place" style="vertical-align: bottom;"></td>
+			</tr>
+		</table>
+		
+		<div id="toolbar" style="margin-top: 10px; margin-left: 23px;">
+		</div>
+		
+		<div id="helptext">
+		<ul>
+			<li>press "Load" button to get data from server</li>
+			<li>create new connections or nodes by drag&dropping <img src="buttons/node_create.gif" s/>&nbsp;icon</li>
+			<li>read short <a href="/manual/manual.html">manual</a> or view <a href="/manual/video.html">demo</a> video</li>
+		</ul>
+		</div>
+		
+		<div id="postarea" style="margin-left: 25px; width: 100%; margin-right: 5px; margin-top: 10px;">
+	
+			<div id="gfx_holder" style="width: 800px; height: 500px; border: 1px solid black; position: absolute;"></div>
+			
+			<div id="sidebar_container" style="left: 826px; width: 250px; height: 500px; border: 1px solid black; position: absolute;">
+				<div id="sidebar_holder" style="width: 100%; height: 380px;"></div>
+				
+				<div style="width: 100%; height: 120px; border-top: 1px solid black; text-align: center;">
+				    <i><b>Birdview</b></i>
+					<div id="gfx_navigator" style="border: 1px solid black; text-align: left; margin: auto;"></div>
+				</div>
+			</div>
+					
+		</div>
+		
+		
+		<!-- for test only !!!! -->
+		<div id="paste-text-testing-content" style="display: none;">
+				<p><a href="http://www.businessweek.com/debateroom/archives/2008/03/employers_get_o.html">This week's debate</a> in the <i>Business Week</i> Debate Room tackles that issue: "When considering job applicants, prospective employers have no business poking around their profiles on social networking sites. Pro or con?"</p>
+
+<h2>The Debate</h2>
+
+<p>On the pro side, Greg Fish argued that social networking profiles aren't resumes and companies should not use them when determining if an applicant should be hired.  "A public profile is a vehicle for casually interacting with others in an informal setting, on personal free time," he wrote. "When companies use these profiles to find not only a professional but also an ideological match for a job, they’re misleading themselves and building ill will with talented prospective employees, who might decline to apply for a job for fear a comment about China on their blogs makes them persona non grata."</p>
+
+<p>Fish's arguement hinged on the premise that by utilizing social networking profiles in the hiring process, employees were opening themselves up to potential discrimination lawsuits, and worse may be doing so on the premise of false information.</p>
+
+<p>On the con side, Timothy Lee said that there were plenty of legitimate reasons for employers to look at social networking profiles of prospective hires.  "Employees in sales, public relations, and customer service function as representatives for the companies they work for, so employers have a legitimate interest in ensuring potential workers won’t embarrass the company," he wrote.</p>
+
+<p>According to Lee, people shouldn't fear that an employer will get a hold of their social networking profile, but instead they should expect it and use it to their advantage.  By using your social networking profile and other bits of your online persona as an "extended resume," workers can "demonstrate passion and depth of knowledge for his or her area of expertise."</p>
+
+<h2>But Do We Actually Control Our Own Profiles?</h2>
+
+<p>Both Fish and Lee make compelling points.  Certainly social networking profiles and other stuff you put online is public, and you should expect that anyone might see it.  Carefully crafting your public online image to emphasize your best qualities is a good idea -- treat how you behave online the same as how you'd behave in any other public place.</p>
+
+<p>But at the same time, the way many social networking sites are set up, we don't necessarily control all the information we put out there.  It's true that you probably shouldn't be posting party photos from your college days on Facebook while you're applying for a job as an elementary school teacher, but do you friends know that? What if they tag you in those photos?  You can remove the tags -- but only if you're a member of Facebook. Is it reasonable to expect people to actively maintain profiles on every popular social network or photo and video sharing site just to keep on top of photos that your college buddies might post?</p>
+
+<p>The bottom line is that employers can, will, and probably should look at social networking profiles and other online information sources when making hiring decisions.  But they should also take the information they find there with a large helping of salt and keep in mind that the Internet is not necessarily the most accurate representation of that real world.</p>
+		</div>
+	</body>
+</html>

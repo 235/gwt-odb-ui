@@ -1,0 +1,83 @@
+.gwt-RichTextArea {
+  border: 0px;
+  background-color: white;
+}
+
+.gwt-RichTextToolbar {
+  background-color: #EFEFDE;
+  border-bottom: 1px solid black;
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-up {
+  margin-right: 2px;
+  /* border: 1px solid #C3D9FF; */
+  float:left;
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-up-hovering {
+  margin-right: 2px;
+  background-color: #e8fafa;
+  /* border: 1px solid #C3D9FF;
+  border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205) rgb(232, 241, 255); */
+  float:left;
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-down {
+  margin-right: 2px;
+  background-color: #c3d8ec;  
+  /* border: 1px solid #C3D9FF;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205); */
+  float:left;
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-down-hovering {
+  margin-right: 2px;
+  /* border: 1px solid #C3D9FF;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205); */
+  float:left;
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-up {
+  margin-right: 2px;
+  /* border: 1px solid #C3D9FF; */
+  float:left;
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-up-hovering {
+  margin-right: 2px;
+  background-color: #effafa;
+  /* border: 1px solid #C3D9FF;
+  border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205) rgb(232, 241, 255); */
+  float:left;
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-down {
+  margin-right: 2px;
+  background-color: #c3d8ec;
+  /* border: 1px solid #C3D9FF;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205); */
+  float:left;
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-down-hovering {
+  margin-right: 2px;
+  background-color: #c3d8ec;
+  /* border: 1px solid #C3D9FF;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205); */
+  float:left;
+}
+
+.gwt-DisclosurePanel .header {
+	font-size: 10px; 
+	text-decoration: none;
+	cursor: hand;
+	padding: 1px;
+}
+
+.gwt-RichTextToolbar .verticalOuterDisclosure {
+	border-left: solid 1px black;
+}
+
+.gwt-RichTextToolbar .content {
+	margin-left: 2px;
+}

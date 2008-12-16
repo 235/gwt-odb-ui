@@ -1,0 +1,15 @@
+<module>
+  <inherits name="com.google.gwt.core.Core"/>
+  <inherits name="com.google.gwt.user.UserAgent"/>
+
+  <!-- Fall through to this rule is the browser isn't IE  -->
+  <replace-with class="net.pleso.odbui.client.widgets.base.verticalscrollpanel.VerticalScrollPanel.Impl">
+    <when-type-is class="net.pleso.odbui.client.widgets.base.verticalscrollpanel.VerticalScrollPanel.Impl"/>
+  </replace-with>
+  
+  <!-- IE has a different implementation -->
+  <replace-with class="net.pleso.odbui.client.widgets.base.verticalscrollpanel.VerticalScrollPanel.ImplIE6">
+    <when-type-is class="net.pleso.odbui.client.widgets.base.verticalscrollpanel.VerticalScrollPanel.Impl"/>
+    <when-property-is name="user.agent" value="ie6"/>
+  </replace-with>
+</module>

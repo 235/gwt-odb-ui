@@ -1,0 +1,33 @@
+<module>
+
+	<!-- Inherit the core Web Toolkit stuff.                  -->
+	<inherits name='com.google.gwt.user.User'/>
+
+	<!-- Specify the app entry point class.                   -->
+	<entry-point class='net.pleso.odbui.client.odbui'/>
+	
+	<servlet path='/getdata' class='net.pleso.odbui.server.GetDataServlet'/>
+	<servlet path='/savedata' class='net.pleso.odbui.server.SaveDataServlet'/>
+	<servlet path='/fileloader' class='net.pleso.odbui.server.FileLoaderServlet'/>
+	<servlet path='/dumpdata' class='net.pleso.odbui.server.DumpDataServlet'/>
+	
+	<!-- other inherited modules, such as com.google.gwt.user.User -->
+  	<inherits name="com.google.gwt.http.HTTP"/>
+  	<inherits name="com.google.gwt.json.JSON"/>
+  	<inherits name="com.google.gwt.xml.XML" />
+  	<inherits name="net.pleso.odbui.client.widgets.base.verticalscrollpanel.VerticalScrollPanel"/>
+  	<!-- additional module settings -->
+  	
+  	  <!-- Fall through to this rule is the browser isn't IE  -->
+	  <replace-with class="net.pleso.odbui.client.widgets.gfx.DefaultStrokes.Impl">
+	    <when-type-is class="net.pleso.odbui.client.widgets.gfx.DefaultStrokes.Impl"/>
+	  </replace-with>
+	  
+	  <!-- IE has a different implementation -->
+	  <replace-with class="net.pleso.odbui.client.widgets.gfx.DefaultStrokes.ImplIE6">
+	    <when-type-is class="net.pleso.odbui.client.widgets.gfx.DefaultStrokes.Impl"/>
+	    <when-property-is name="user.agent" value="ie6"/>
+	  </replace-with>
+	  
+  
+</module>

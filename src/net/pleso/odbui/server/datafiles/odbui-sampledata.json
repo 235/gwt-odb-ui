@@ -1,0 +1,329 @@
+{
+  "head": {
+    "vars": [ "s" , "p" , "o" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "what%20is%20it%3F" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "683%2C248" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "%3Cbr%3E" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "154%2C22" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance5" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance6" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance7" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance8" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance9" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance4" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance13" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance5" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "Website%3A" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance5" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "693%2C123" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance5" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "%3Ca%20href%3D%22http%3A//del.icio.us%22%20title%3D%22del.icio.us%22%3Edel.icio.us%3C/a%3E" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance5" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "76%2C47" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance6" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "Location%3A" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance6" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "786%2C122" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance6" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "%0A%09%09%20%20Sunnyvale%2C%20California%2C%20United%20States" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance6" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "134%2C56" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance7" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "Founded%3A" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance7" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "888%2C200" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance7" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "November%201%2C%202003" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance7" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "122%2C49" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance8" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "Acquired%3A" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance8" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "887%2C262" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance8" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "%0A%09%09%09%09%0A%09%09%20%20%20%20%20%20%09%09December%201%2C%202005%20by%0A%09%09%20%20%20%20%20%20%09%0A%09%09%09%09%3Ca%20href%3D%22http%3A//www.crunchbase.com/company/yahoo%22%3EYahoo%21%3C/a%3E" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance8" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "124%2C57" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance9" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "About%3A" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance9" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "700%2C317" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance9" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "%3Csup%3EDelicious%20is%20a%20social%20bookmarking%20website%20%u2013%20the%20primary%20use%20of%0Adel.icio.us%20is%20to%20store%20your%20bookmarks%20online%2C%20which%20allows%20you%20to%0Aaccess%20the%20same%20bookmarks%20from%20any%20computer%20and%20add%20bookmarks%20from%0Aanywhere%2C%20too.%20On%20Delicious%2C%20you%20can%20use%20tags%20to%u2026%20%3Ca%20href%3D%22http%3A//www.crunchbase.com/company/delicious%22%3ELearn%20More%3C/a%3E%3C/sup%3E" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance9" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "180%2C125" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance10" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "Report%20is%20late" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance10" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "215%2C188" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance10" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "Silicon%20Alley%20Insider%u2019s%20%3Ca%20href%3D%22http%3A//www.alleyinsider.com/2008/3/del_icio_us_redesign_is_only_first_step%22%20onclick%3D%22javascript%3AurchinTracker%20%28%27/outbound/www.alleyinsider.com%27%29%3B%22%3Ereport%3Cimg%20id%3D%22snap_com_shot_link_icon%22%20class%3D%22snap_preview_icon%22%20style%3D%22border%3A%200pt%20none%20%3B%20margin%3A%200pt%20%21%20important%3B%20padding%3A%201px%200pt%200pt%3B%20max-width%3A%202000px%3B%20max-height%3A%202000px%3B%20font-style%3A%20normal%3B%20font-weight%3A%20normal%3B%20font-family%3A%20%26quot%3Btrebuchet%20ms%26quot%3B%2Carial%2Chelvetica%2Csans-serif%3B%20float%3A%20none%3B%20position%3A%20static%3B%20left%3A%20auto%3B%20top%3A%20auto%3B%20line-height%3A%20normal%3B%20background-image%3A%20url%28http%3A//i.ixnp.com/images/v3.21.0.2/theme/silver/palette.gif%29%3B%20background-color%3A%20transparent%3B%20width%3A%2014px%3B%20height%3A%2012px%3B%20background-position%3A%20-944px%200pt%3B%20background-repeat%3A%20no-repeat%3B%20text-decoration%3A%20none%3B%20visibility%3A%20visible%3B%20vertical-align%3A%20top%3B%20display%3A%20inline%3B%22%20src%3D%22http%3A//i.ixnp.com/images/v3.21.0.2/t.gif%22%3E%3C/a%3E%20on%20a%20redesign%20and%20rebranding%20at%20Delicious%20is%20just%20a%20tad%20late" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance10" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "158%2C95" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance10" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance12" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance11" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "sigh..." }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance11" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "442%2C42" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance11" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "I%20know%20we%20can%u2019t%20always%20expect%20our%20friends%20in%20New%20York%20to%20stay%0Acompletely%20up%20to%20date%20on%20the%20latest%20Silicon%20Valley%20product%20developments" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance11" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "164%2C118" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance11" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance13" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance12" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "6%20months%20after%20scren%20shots" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance12" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "74%2C14" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance12" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "%3Csup%3ELike%206%20months%20late%20%28the%20screen%20shot%20show%20is%20even%20dated%20August%202007%29.%3C/sup%3E%3Cbr%3E%3Ca%20href%3D%22http%3A//www.techcrunch.com/2007/09/06/exclusive-screen-shots-and-feature-overview-of-delicious-20-preview/%22%3E%3Cimg%20style%3D%22float%3A%20left%3B%22%20src%3D%22http%3A//www.techcrunch.com/wp-content/delicious2.jpg%22%20class%3D%22shot%22%20alt%3D%22%22%3E%3C/a%3E" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance12" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "246%2C159" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance13" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "Delicious%202.0" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance13" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "453%2C230" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance13" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "%3Ca%20href%3D%22http%3A//www.techcrunch.com/2008/03/14/delicious-20-news-finally-comes-to-new-york/%22%3E%3Cspan%20style%3D%22font-weight%3A%20bold%3B%22%3ENews%20Finally%20Comes%20To%20New%20York%3C/span%3E%3C/a%3E%3Cspan%20style%3D%22text-decoration%3A%20underline%3B%22%3E%3Cspan%20style%3D%22font-weight%3A%20bold%3B%22%3E%3Cbr%3E%3C/span%3E%3C/span%3E" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance13" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "146%2C58" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance13" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance10" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance13" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance14" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance13" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance16" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance14" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "Promises" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance14" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "196%2C309" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance14" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "It%20was%20announced%20and%20shown%20to%20the%20public%20last%20%3Ca%20href%3D%22http%3A//www.techcrunch.com/2007/09/06/exclusive-screen-shots-and-feature-overview-of-delicious-20-preview/%22%3ESeptember%3C/a%3E%20along%20with%20word%20that%20the%20entire%20back%20end%20had%20been%20rewritten%20as%20well." }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance14" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "177%2C105" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance14" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#related" } ,
+        "o": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance15" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance15" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "Rebranding" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance15" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "163%2C456" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance15" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "Delicious.com%20has%20redirected%20to%20del.icio.us%20for%20at%20least%20a%20year." }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance15" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "156%2C73" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance16" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#title" } ,
+        "o": { "type": "literal" , "value": "When%20this%20will%20actually%20launch%3F" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance16" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#coordinates" } ,
+        "o": { "type": "literal" , "value": "440%2C351" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance16" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#content" } ,
+        "o": { "type": "literal" , "value": "We%20were%20%3Ca%20href%3D%22http%3A//www.techcrunch.com/2008/01/21/will-we-see-delicious-20-this-week/%22%3Eteased%3C/a%3E%20in%20January%20on%20the%20delicious%20blog%20but%20the%20promised%20update%20never%20happend.%20Now%20it%u2019s%20March%20and%20Yahoo%20is%20still%20silent%20on%20the%20issue.%20" }
+      } ,
+      {
+        "s": { "type": "uri" , "value": "http://protege.stanford.edu/rdfKB_943350_Instance16" } ,
+        "p": { "type": "uri" , "value": "http://pleso.net/schemas/odbui#dimensions" } ,
+        "o": { "type": "literal" , "value": "171%2C121" }
+      }
+    ]
+  }
+}

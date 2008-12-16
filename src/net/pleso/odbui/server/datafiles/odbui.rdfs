@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+	 <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	 <!ENTITY odbui 'http://pleso.net/schemas/odbui#'>
+	 <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+]>
+<rdf:RDF xmlns:rdf="&rdf;"
+	 xmlns:odbui="&odbui;"
+	 xmlns:rdfs="&rdfs;">
+<rdfs:Class rdf:about="&odbui;Comment"
+	 rdfs:label="odbui:Comment">
+	<rdfs:subClassOf rdf:resource="&odbui;Node"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&odbui;Node"
+	 rdfs:comment="Visual and data graph node"
+	 rdfs:label="odbui:Node">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&odbui;author"
+	 rdfs:label="odbui:author">
+	<rdfs:comment>The name of the person or organization most responsible for creating this item.</rdfs:comment>
+	<rdfs:domain rdf:resource="&odbui;Node"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&odbui;color"
+	 rdfs:comment="Node's color"
+	 rdfs:label="odbui:color">
+	<rdfs:domain rdf:resource="&odbui;Node"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&odbui;content"
+	 rdfs:comment="Node's content"
+	 rdfs:label="odbui:content">
+	<rdfs:domain rdf:resource="&odbui;Node"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&odbui;coordinates"
+	 rdfs:label="odbui:coordinates">
+	<rdfs:comment xml:space='preserve'><![CDATA[Node's coordinates on the canvas in "x,y"]]></rdfs:comment>
+	<rdfs:domain rdf:resource="&odbui;Node"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&odbui;created"
+	 rdfs:label="odbui:created">
+	<rdfs:comment>The date and time on which the Item was created.  yyyy-mm-ddThh:mm:ssZ format recommended.</rdfs:comment>
+	<rdfs:domain rdf:resource="&odbui;Node"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&odbui;dimensions"
+	 rdfs:label="odbui:dimensions">
+	<rdfs:comment xml:space='preserve'><![CDATA[Node's dimensions on the canvas in "x,y"]]></rdfs:comment>
+	<rdfs:domain rdf:resource="&odbui;Node"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&odbui;modified"
+	 rdfs:label="odbui:modified">
+	<rdfs:comment>The date and time on which the Item was modified.  yyyy-mm-ddThh:mm:ssZ format recommended.</rdfs:comment>
+	<rdfs:domain rdf:resource="&odbui;Node"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&odbui;related"
+	 rdfs:comment="Connections between nodes"
+	 rdfs:label="odbui:related">
+	<rdfs:domain rdf:resource="&odbui;Node"/>
+	<rdfs:range rdf:resource="&odbui;Node"/>
+</rdf:Property>
+<rdf:Property rdf:about="&odbui;title"
+	 rdfs:comment="Node's title"
+	 rdfs:label="odbui:title">
+	<rdfs:domain rdf:resource="&odbui;Node"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+</rdf:RDF>

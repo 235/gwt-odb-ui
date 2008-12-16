@@ -1,0 +1,126 @@
+<html>
+<head>
+  <title>fluxB.com - short help</title>
+  <style>
+    BODY {
+      margin: 0px;
+      background-color: white;
+    }
+    #center {
+    	margin: auto;
+        font-family: Tahoma, sans-serif;
+        font-size: 12px;
+    }
+    #bottom {
+ 	background-color: gray;
+	color: white;
+        font-family: Tahoma, sans-serif;
+        font-size: 12px;
+	text-align: center;
+    }
+    a.white, a.white:link, a.white:active,a.white:visited {
+	color: white;
+    	/*text-decoration: none;*/
+    }
+    img, img:link
+    {
+        border: none;
+	align: center;
+    }
+    ul {
+       line-height: 18px;
+    }
+  </style>
+</head>
+<body>
+<center>
+<table border="0" height="100%" width="750px" cellpadding="0" cellspacing="0">
+<tr height="100%">
+  <td valign="middle">
+  <div id="center">
+<center>
+<h2>fluxB.com UI prototype short manual</h2>
+<b>return to:</b><br/>
+<a href="/ui-prototype2/index.html">index page</a>
+ &ndash; <a href="/manual/video.html">flash video demo</a>
+  &ndash; <a href="/ui-prototype2/odbui.html">UI prototype</a><br/>
+</center>
+<p>  
+Many of us have the need to present the information on the web visually. This mind-map fluxB UI component meets this demand by offering content presentation in the same way the human mind works by visually connecting concepts and organizing them on top of each other into a general knowledge base.  it will be more natural and comfortable for users  to organize and share/publish ideas with our tool, comparing to the common writing plain text content/post on the web. We enable users to discuss the content publicly, navigate and search for information that is interconnected, and aggregate various independent sources.</p>
+<br/>
+<p style="text-align: center;"><img src="img/help1.png"></p>
+<p style="text-align: center;"><i>General overview</i></p>
+<p>
+Just after opening fluxB UI, you'll get an interface similar to the picture above, saved graph would be restored from server. Look around, you'll see:
+<ol>
+  <li><b>Main menu</b>:
+    <ul>
+      <li><img src="button/load-button.gif"> <i>Load</i> - restore graph from server</li>
+      <li><img src="button/save-button.gif"> <i>Save</i> - actually saves the graph</li>
+      <li><img src="button/reset-button.gif"> <i>Reset</i> - brings you back to the default graph, substituting the current one</li>
+      <li><img src="button/rdf.gif"> <i>Dump RDF</i> - open a new window with the RDF code of currently saved graph on the server</li>
+      <li><img src="button/start-autoalign-button.gif"> <i>Start autoalign</i> - would auto-allocate nodes for an optimal view. While Autoalign is working, the manual control would be ignored, but you could stop it by pressing on <img src="button/stop-autoalign-button.gif"> <i>Stop autoalign</i> - the same button.</li>
+      <li><img src="button/addnode-button.gif"> <i>Add node</i> - would create a new node without connections</li>
+    </ul>
+  </li>
+  <li><b>Active node</b> - a node currently under a mouse pointer, it shows a toolbar with the functional buttons:
+    <ul>
+      <li><img src="img/node_edit.gif"> edit node button</li>
+      <li><img src="img/node_delete.gif"> delete node</li>
+      <li><img src="img/node_create.gif"> create tool - to add new nodes or connections (usage example below)</li>
+      <li><img src="img/node_fold.gif"> fold/unfold node</li>
+    </ul>
+  <b>Drag'n'drop</b> - you could move a node around by holding it by the caption field</li>
+  <li><b>Folded node</b> - you could fold/unfold node pressing button in the caption field</li>
+</ol>
+</p>
+
+<br/>
+
+<p style="text-align: center;"><img src="img/help2.gif"></p>
+<p style="text-align: center;"><i>How to create new nodes and connections</i></p>
+<p>
+Drag-n-drop <img src="img/node_create.gif"> icon to create new connections or nodes. If you'll release mouse button on spare place - a new node will be created there, if you'll release on existing node - would be created a new connection between nodes
+</p>
+
+<br/>
+
+<p style="text-align: center;"><img src="img/help3.png"></p>
+<p style="text-align: center;"><i>More mouse actions</i></p>
+<p>
+<ol>
+  <li><b>Move whole graph together</b> (pan) - press left mouse button on spare place and drag</li>
+  <li><b>Delete connection or change its color</b> - connection toolbar would appear, if you'll press on wrench icon closer to a center of line. There are delete and color buttons</li>
+  <li><b>Change size</b> - by holding node's right bottom corner</li>
+</ol>
+</p>
+<br/>
+
+<p style="text-align: center;"><img src="img/help4.png"></p>
+<p style="text-align: center;"><i>Edit mode</i></p>
+<p>
+If you'll press <img src="img/node_edit.gif"> edit button or double-click on caption field, node would be switched to edit mode. Edit button would be substituted by <i>save</i> and <i>cancel changes</i> buttons.<br/>
+Press on <b>click to open</b> sign under title to unfold hidden rich-editor panel.
+</p>
+
+<p style="text-align: center;"><img src="img/help5.png"></p>
+<p style="text-align: center;"><i>Side Bar</i></p>
+<p>
+
+</p>
+
+<br/>
+<p>This component works in single user mode. It have been tested on Firefox 2+ (Windows, Linux), Internet Explorer 6, Safari 3 (Windows). No performance optimizations have been conducted.
+<p>First prototype you could find on our site - <a href="http://gwt.org.ua/en/odb-ui-proto/">http://gwt.org.ua/en/odb-ui-proto/</a></p>
+
+  </div>
+  </td>
+</tr><tr height="50">
+  <td id="bottom"> 
+  you could reach us on email:<a class="white" href="mailto:opryymak@gmail.com">opryymak@gmail.com</a>, phone: <i>+380677786003</i> or skype ID: <i>oleksandr_pr</i> <br/>(contact person - Oleksandr Pryymak)
+  </td>
+</tr>
+</table>
+</center>
+</body>
+</html>

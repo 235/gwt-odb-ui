@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<rdf:RDF
+   xml:lang="en"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <foaf:Person>
+    <foaf:nick>tapo4ok</foaf:nick>
+    <foaf:name>tapo4ok</foaf:name>
+    <foaf:openid rdf:resource="http://tapo4ok.livejournal.com/" />
+    <foaf:dateOfBirth>1983-03-17</foaf:dateOfBirth>
+    <foaf:mbox_sha1sum>57bab16258c4703738163819d89e3c2b44dc1583</foaf:mbox_sha1sum>
+    <foaf:img rdf:resource="http://userpic.livejournal.com/55627001/9891225" />
+    <foaf:page>
+      <foaf:Document rdf:about="http://tapo4ok.livejournal.com/profile">
+        <dc:title>LiveJournal.com Profile</dc:title>
+        <dc:description>Full LiveJournal.com profile, including information such as interests and bio.</dc:description>
+      </foaf:Document>
+    </foaf:page>
+    <foaf:icqChatID>163985496</foaf:icqChatID>
+    <foaf:aimChatID></foaf:aimChatID>
+    <foaf:jabberID></foaf:jabberID>
+    <foaf:msnChatID></foaf:msnChatID>
+    <foaf:yahooChatID></foaf:yahooChatID>
+    <foaf:weblog rdf:resource="http://tapo4ok.livejournal.com/"/>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>r_a_y_d_e_n</foaf:nick>
+        <foaf:member_name>r_a_y_d_e_n</foaf:member_name>
+        <foaf:tagLine>My life will be kept here..</foaf:tagLine>
+        <foaf:image>http://userpic.livejournal.com/65292355/13561314</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://r-a-y-d-e-n.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://r-a-y-d-e-n.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>logvynenko</foaf:nick>
+        <foaf:member_name>Логвиненко</foaf:member_name>
+        <foaf:tagLine>Логвиненко</foaf:tagLine>
+        <foaf:image>http://userpic.livejournal.com/70442527/9108574</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://logvynenko.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://logvynenko.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>andrewscater</foaf:nick>
+        <foaf:member_name>AndrewScater</foaf:member_name>
+        <foaf:tagLine>Close me</foaf:tagLine>
+        <foaf:image>http://userpic.livejournal.com/69367367/12517007</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://andrewscater.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://andrewscater.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>nielogiczna</foaf:nick>
+        <foaf:member_name>biedronka</foaf:member_name>
+        <foaf:tagLine>Dokąd podział się prawie doskonały rozum?</foaf:tagLine>
+        <foaf:image>http://userpic.livejournal.com/66985122/11442861</foaf:image>
+        <rdfs:seeAlso rdf:resource="http://nielogiczna.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="http://nielogiczna.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+  </foaf:Person>
+</rdf:RDF>
